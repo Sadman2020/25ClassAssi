@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;800&display=swap');
+
+body {
+    font-family: 'Spartan', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+/* price section css */
+.price-wrapper {
+    background: #f6f9fc;
+}
+
+.price-wrapper .price-subtitle {
+    color: #0d6efd;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.price-wrapper .price-title {
+    font-weight: 600;
+    color: #0f0d0b;
+    position: relative;
+}
+
+.price-wrapper .price-title::after {
+    position: absolute;
+    content: '';
+    width: 52px;
+    height: 3px;
+    top: 62px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #0d6efd;
+}
+
+.price-wrapper .price-text {
+    color: #c9cbcf;
+    font-weight: 700;
+}
+
+.price-boxs .box {
+    background: #fff;
+    padding: 40px 10px;
+    transition: .5s;
+}
+
+.price-boxs .box:hover {
+    color: #fff;
+    background: #0d6efd;
+}
+
+.price-boxs .box:hover .price-btn {
+    background: #fff;
+    color: #0d6efd;
+}
+
+.price-boxs .box:hover h3 {
+    color: #fff;
+}
+
+.price-boxs .box:hover span {
+    color: #fff;
+}
+
+.price-boxs .box h3 {
+    font-size: 20px;
+    color: #0f0d0b;
+    font-weight: 600;
+}
+
+.price-boxs .box span {
+    font-size: 50px;
+    color: #0f0d0b;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.price-boxs .box .price-ser {
+    font-size: 16px;
+    font-weight: 600;
+    color: #c9cbcf;
+    line-height: 38px;
+}
+
+.price-boxs .box .price-btn {
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: #0d6efd;
+}
+
+.price-boxs .box .price-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* purchase section css */
+
+.purchase-wrapper {
+    padding: 200px 0;
+    background: linear-gradient(#0d6dfd9d,#0d6dfd9d), url(./img/free-bg.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.purchase-wrapper .purchase-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.purchase-wrapper .purchase-title {
+    font-size: 53px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.purchase-wrapper .purchase-title::after {
+    position: absolute;
+    content: '';
+    width: 65px;
+    height: 3px;
+    top: 145px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.purchase-wrapper .purchase-text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.purchase-wrapper .purchase-btn {
+    border: none;
+    font-weight: 600;
+    color: #0d6efd;
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 25rem;
+}
+
+.purchase-wrapper .purchase-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Newsletter section CSS */
+.newsletter-wrapper {
+    background: #f6f9fc;
+    padding: 100px 0;
+
+}
+
+.newsletter-wrapper .news-info {
+    background: #0d6efd;
+    padding: 50px 35px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.newsletter-wrapper .news-info h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.newsletter-wrapper .news-info p {
+    width: 45%;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.newsletter-wrapper .news-info .custom-form {
+    border-radius: 25px;
+    border: none;
+}
+
+.newsletter-wrapper .news-info .nw-btn {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+    background: none;
+    border-radius: 25px;
+}
+
+.newsletter-wrapper .news-info .nw-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.newsletter-wrapper .news-info2 {
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 1px 10px 50px 5px #c9cbcf;
+}
+
+.newsletter-wrapper .news-info2 p {
+    width: 65%;
+    color: #111;
+    margin-bottom: 150px;
+}
+
+.newsletter-wrapper .news-info2 .sub-btn {
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 600;
+    background: #0d6efd;
+    border: none;
+}
+
+.newsletter-wrapper .news-info2 .sub-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
